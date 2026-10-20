@@ -52,9 +52,9 @@ def conserved(state):
 
 
 def functions():
-    names = {'integer', 'valid_bid', 'bundles', 'optimum', 'pivot'}
+    names = {'integer', 'valid_bid', 'bundles', 'interpret_bid', 'optimum', 'pivot'}
     tree = ast.parse(SOURCE.read_text())
-    namespace = {'fail': lambda message: (_ for _ in ()).throw(ValueError(message))}
+    namespace = {'json': json, 'fail': lambda message: (_ for _ in ()).throw(ValueError(message))}
     exec(compile(ast.Module(body=[n for n in tree.body if isinstance(n, ast.FunctionDef) and n.name in names], type_ignores=[]), str(SOURCE), 'exec'), namespace)
     return namespace
 
@@ -389,3 +389,28 @@ def test_transfers_cannot_bypass_terminal_or_owner_checks(direct_deploy, direct_
         c.transfer_right(0, '0x' + '0' * 40)
     c.transfer_right(0, direct_accounts[1])
     assert c.get_state()['owners'][0] == c.get_state()['configuration']['bidders'][0]
+
+
+def test_schema_repair_is_bounded_and_preserves_null():
+    namespace = functions()
+    source = json.loads(record('review-one')[2])
+    valid = {'values': [11, 0, None], 'anchors': [[0], [0], []]}
+    calls = []
+    def model(prompt):
+        calls.append(prompt)
+        return {'values': [11, 0, 'UNKNOWN'], 'anchors': [[0], [0], []]} if len(calls) == 1 else valid
+    namespace['model_json'] = model
+    assert namespace['interpret_bid'](source, ITEMS) == valid
+    assert len(calls) == 2 and 'previous output had an invalid schema' in calls[1]
+
+
+def test_two_malformed_attempts_fail_with_diagnostic_not_silent_coercion():
+    namespace = functions()
+    calls = []
+    def model(prompt):
+        calls.append(prompt)
+        return {'values': [11, 0, 'UNKNOWN'], 'anchors': [[0], [0], []]}
+    namespace['model_json'] = model
+    with pytest.raises(ValueError, match='Invalid bundle valuation:'):
+        namespace['interpret_bid'](json.loads(record('review-one')[2]), ITEMS)
+    assert len(calls) == 2

@@ -12,6 +12,8 @@ The extraction returns an amount or null, with clause anchors, for masks 1 throu
 
 Validators compare every integer and null exactly. They separately audit the leader's entries and anchors against the complete source, including zero/null entries. Numeric answers need anchors; null may use empty anchors but still requires full-source audit. Audit answers must be actual JSON booleans, all true. No confidence tolerance exists. Malformed model outputs force disagreement/rotation; deterministic external errors compare exactly; both transient errors may agree on a failed transaction. No failed transaction can approve or allocate a right.
 
+An invalid extraction schema gets one bounded model repair request with the complete task and prior output. The same strict schema applies afterwards; strings such as `"UNKNOWN"` are not silently coerced to null. A second malformed output raises an LLM error with bounded diagnostic output. Repair never substitutes for independent interpretation or the full-source audit.
+
 ## State and authority
 
 The seller is deployer and must be distinct from all 2–4 bidders. Constructor endowments are 0–10,000 native credits per bidder. The seller initially owns each of 1–3 unique rights. Bid amounts are 0–1,000. Every bidder gets one immutable signed source commitment; anyone may interpret it once while OPEN. APPROVAL requires a complete interpreted vector, its exact signed integer copy, and sufficient balance for its maximum amount. Approval cannot be repeated or changed.
@@ -31,6 +33,10 @@ Nonnegative normalized values imply `0 <= payment_i <= value_i(selected_mask_i) 
 `sum(bidder_balances) + sum(escrows) + seller_credits == sum(initial_endowments)`.
 
 The maximum case enumerates 125 allocations for the choice and another 125 per removed bidder. All integer arithmetic; no generated code, floating point, external optimizer or owner-chosen winning portfolio.
+
+### Worked counterfactual
+
+Bidder A values only the pair at 18. B values Amber at 11 and the pair at 11. C values Cobalt at 10 and the pair at 10; the other singleton values are zero. B and C win with welfare 21. Without B, A could create welfare 18; C gets welfare 10 in the selected allocation, so B pays `18-10=8`. C pays `18-11=7`. A loses and pays zero. Increasing A's pair value to 24 makes A win both rights and pay `21-0=21`. Neither case is a uniform-price marginal-order matching problem.
 
 ## Distinct mechanism
 
