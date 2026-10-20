@@ -1,7 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const root=path.resolve(__dirname,'..'),repo='mohammadisina1988-jpg/pivot-bond';
 const cases={split:['split-zero','amber-one','cobalt-two'],bundle:['bundle-zero','amber-one','cobalt-two'],review:['split-zero','review-one']};
-const values={'split-zero':[0,0,18],'bundle-zero':[0,0,24],'amber-one':[11,0,11],'cobalt-two':[0,10,10],'review-one':[11,0,null]};
+const values={'split-zero':[0,0,18],'bundle-zero':[0,0,24],'amber-one':[11,0,11],'cobalt-two':[0,10,10],'review-one':[11,0,-1]};
 const canonical=x=>Array.isArray(x)?x.map(canonical):x&&typeof x==='object'?Object.fromEntries(Object.keys(x).sort().map(k=>[k,canonical(x[k])])):x;
 const equal=(a,b)=>JSON.stringify(canonical(a))===JSON.stringify(canonical(b));
 const clone=x=>JSON.parse(JSON.stringify(x));
@@ -39,8 +39,8 @@ function check(s,id,revision,accounts){
   if(bid.status==='SUBMITTED'){assert(Object.keys(bid).sort().join(',')==='sha256,status,url','Submitted schema');return;}
   const source=JSON.parse(fs.readFileSync(path.join(root,'fixtures',cases[id][i]+'.json'))),v=bid.valuation;
   assert(Object.keys(bid).sort().join(',')==='sha256,source,status,url,valuation'&&equal(bid.source,source)&&Object.keys(v).sort().join(',')==='anchors,values'&&equal(v.values,values[cases[id][i]]),'Complete source and exact bundle totals');
-  assert(bid.status===(v.values.includes(null)?'REVIEW':'VALUED'),'Exact ambiguity boundary');
-  assert(Array.isArray(v.anchors)&&v.anchors.length===3&&v.anchors.every((a,j)=>Array.isArray(a)&&a.length<=4&&(v.values[j]===null||a.length>0)&&a.every(k=>Number.isInteger(k)&&k>=0&&k<source.clauses.length)&&equal(a,[...new Set(a)].sort((x,y)=>x-y))),'Every source anchor');
+  assert(bid.status===(v.values.includes(-1)?'REVIEW':'VALUED'),'Exact ambiguity boundary');
+  assert(Array.isArray(v.anchors)&&v.anchors.length===3&&v.anchors.every((a,j)=>Array.isArray(a)&&a.length<=4&&(v.values[j]===-1||a.length>0)&&a.every(k=>Number.isInteger(k)&&k>=0&&k<source.clauses.length)&&equal(a,[...new Set(a)].sort((x,y)=>x-y))),'Every source anchor');
  });
 }
 function plan(id,accounts,revision){
@@ -69,7 +69,7 @@ function replay(before,item,after,id,revision,accounts){
  if(item.method==='submit'){expected.bids[i]={url:item.args[0],sha256:item.args[1],status:'SUBMITTED'};}
  else if(item.method==='interpret'){
   const j=item.args[0];expected.bids[j]=clone(after.bids[j]);
-  assert(after.bids[j].status===(values[cases[id][j]].includes(null)?'REVIEW':'VALUED'),'Interpreted bid status');
+  assert(after.bids[j].status===(values[cases[id][j]].includes(-1)?'REVIEW':'VALUED'),'Interpreted bid status');
  }else if(item.method==='approve'){
   assert(i>=0&&!before.approved[i]&&equal(item.args[0],before.bids[i].valuation.values),'Exact signed consent');
   const reserve=Math.max(...item.args[0]);expected.credits[i]-=reserve;expected.escrow[i]=reserve;expected.approved[i]=true;

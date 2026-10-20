@@ -13,7 +13,7 @@ SOURCE = ROOT / 'contracts/pivot_bond.py'
 REPO = 'mohammadisina1988-jpg/pivot-bond'
 ITEMS = ['Amber', 'Cobalt']
 CASES = {'split': ['split-zero', 'amber-one', 'cobalt-two'], 'bundle': ['bundle-zero', 'amber-one', 'cobalt-two'], 'review': ['split-zero', 'review-one']}
-VALUES = {'split-zero': [0, 0, 18], 'bundle-zero': [0, 0, 24], 'amber-one': [11, 0, 11], 'cobalt-two': [0, 10, 10], 'review-one': [11, 0, None]}
+VALUES = {'split-zero': [0, 0, 18], 'bundle-zero': [0, 0, 24], 'amber-one': [11, 0, 11], 'cobalt-two': [0, 10, 10], 'review-one': [11, 0, -1]}
 ANCHORS = {'split-zero': [[1], [1], [2]], 'bundle-zero': [[1], [1], [2]], 'amber-one': [[0], [0], [1]], 'cobalt-two': [[0], [0], [1]], 'review-one': [[0], [0], []]}
 
 
@@ -43,7 +43,7 @@ def prepare(c, vm, accounts, case='split', approve=True):
         mocks(vm, name)
         c.interpret(i)
         assert vm.run_validator() is True
-        if approve and None not in VALUES[name]:
+        if approve and -1 not in VALUES[name]:
             c.approve(VALUES[name])
 
 
@@ -150,7 +150,7 @@ def test_full_source_audit_is_consequential(direct_deploy, direct_vm, direct_acc
     assert direct_vm.run_validator() is False
 
 
-def test_null_anchor_still_requires_substantive_audit(direct_deploy, direct_vm, direct_accounts):
+def test_unresolved_anchor_still_requires_substantive_audit(direct_deploy, direct_vm, direct_accounts):
     c = deploy(direct_deploy, direct_vm, direct_accounts, 'review')
     prepare(c, direct_vm, direct_accounts, 'review', approve=False)
     mocks(direct_vm, 'review-one', audit={'valid': [True, True, False]})
@@ -166,7 +166,8 @@ def test_validator_refetches_exact_committed_bytes(direct_deploy, direct_vm, dir
 
 @pytest.mark.parametrize('answer', [
     {'values': [0, 0, True], 'anchors': [[1], [1], [2]]},
-    {'values': [0, 0, -1], 'anchors': [[1], [1], [2]]},
+    {'values': [0, 0, -2], 'anchors': [[1], [1], [2]]},
+    {'values': [0, 0, None], 'anchors': [[1], [1], [2]]},
     {'values': [0, 0, 1001], 'anchors': [[1], [1], [2]]},
     {'values': [0, 0, '18'], 'anchors': [[1], [1], [2]]},
     {'values': [0, 0], 'anchors': [[1], [1]]},
@@ -391,10 +392,10 @@ def test_transfers_cannot_bypass_terminal_or_owner_checks(direct_deploy, direct_
     assert c.get_state()['owners'][0] == c.get_state()['configuration']['bidders'][0]
 
 
-def test_schema_repair_is_bounded_and_preserves_null():
+def test_schema_repair_is_bounded_and_preserves_unresolved():
     namespace = functions()
     source = json.loads(record('review-one')[2])
-    valid = {'values': [11, 0, None], 'anchors': [[0], [0], []]}
+    valid = {'values': [11, 0, -1], 'anchors': [[0], [0], []]}
     calls = []
     def model(prompt):
         calls.append(prompt)
