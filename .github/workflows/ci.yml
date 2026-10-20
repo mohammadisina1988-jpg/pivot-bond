@@ -1,0 +1,20 @@
+name: Lint and direct mechanism tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: pip install -r requirements-dev.txt
+      - run: genvm-lint download --version v0.2.16
+      - run: genvm-lint check contracts/pivot_bond.py --json
+      - run: python -m pytest tests/direct -q
+      - run: node --test tests/rpc-preflight.test.cjs
