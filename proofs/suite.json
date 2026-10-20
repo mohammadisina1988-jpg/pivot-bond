@@ -1,0 +1,99 @@
+[
+  {
+    "id": "split",
+    "args": [
+      "mohammadisina1988-jpg/pivot-bond",
+      "rights-auction",
+      [
+        "Amber",
+        "Cobalt"
+      ],
+      [
+        "0x0a09261d5eabfa689ee92db6c9742ebc55ec5124",
+        "0xa6cdacf9080030621ff50712ce8065bf53cc1055",
+        "0x19d530dff1543c3223e0148e791baa71ed66d8c1"
+      ],
+      [
+        30,
+        30,
+        30
+      ]
+    ],
+    "contract": "0xF586AD81fbd5B5a475D29042b7dda67fc14cF689",
+    "deployment": "0x451ffcfd8eb8053071d93207344fb6b985c32678934ce4e5971f0fe9d53f596f",
+    "accounts": [
+      "0x4d7dc2bee77aed40c3c80a5f1f4305be15581834",
+      "0x0a09261d5eabfa689ee92db6c9742ebc55ec5124",
+      "0xa6cdacf9080030621ff50712ce8065bf53cc1055",
+      "0x19d530dff1543c3223e0148e791baa71ed66d8c1"
+    ],
+    "fixture_revision": "d8fa97ef5d93de6cb1455154c2b0303b75ff5517",
+    "source_sha256": "356186106247322f3d4c8c0e9871b60525b3fd4810c83d31cb0b8e3a53f8a21d",
+    "network": "studionet",
+    "chain_id": 61999
+  },
+  {
+    "id": "bundle",
+    "args": [
+      "mohammadisina1988-jpg/pivot-bond",
+      "rights-auction",
+      [
+        "Amber",
+        "Cobalt"
+      ],
+      [
+        "0xfa2a83e60dfc7d92ffd339ff6ac84f4ba796605e",
+        "0x3bad04a1c272a36bf51d8602e6baef71c0d7f29d",
+        "0x0121bd8c5c093154f00968891de5211ddbdb62e9"
+      ],
+      [
+        30,
+        30,
+        30
+      ]
+    ],
+    "contract": "0x50D5cdccB02DaBb1b801AD228E5b7bb9455A4E37",
+    "deployment": "0x09212649ea02af8d479bd8b6c0a64a3f8d61c9396161885389c8ac769928e578",
+    "accounts": [
+      "0xad91b442642005282952765db76bafc9b6b77442",
+      "0xfa2a83e60dfc7d92ffd339ff6ac84f4ba796605e",
+      "0x3bad04a1c272a36bf51d8602e6baef71c0d7f29d",
+      "0x0121bd8c5c093154f00968891de5211ddbdb62e9"
+    ],
+    "fixture_revision": "d8fa97ef5d93de6cb1455154c2b0303b75ff5517",
+    "source_sha256": "356186106247322f3d4c8c0e9871b60525b3fd4810c83d31cb0b8e3a53f8a21d",
+    "network": "studionet",
+    "chain_id": 61999
+  },
+  {
+    "id": "review",
+    "args": [
+      "mohammadisina1988-jpg/pivot-bond",
+      "rights-auction",
+      [
+        "Amber",
+        "Cobalt"
+      ],
+      [
+        "0xf9a6e4acc4917fbd4f0cce3b7dbe4f3fcf741e71",
+        "0xc52d84fa3c1fd917e629f177fcbe5e3eff00feb3"
+      ],
+      [
+        30,
+        30
+      ]
+    ],
+    "contract": "0x8be86ef09A884AE97b217476472222508fCade60",
+    "deployment": "0x7d58051aa211db6bee3a79c93089a99b20baa3b1e96bb932d3c6949afcd9c21c",
+    "accounts": [
+      "0x58f602860bbe700fcd3ffdb3a8c6eb43e37ae76b",
+      "0xf9a6e4acc4917fbd4f0cce3b7dbe4f3fcf741e71",
+      "0xc52d84fa3c1fd917e629f177fcbe5e3eff00feb3",
+      "0x8d8f08fea37f3da77462ed0ad6c368a4e0710e84"
+    ],
+    "fixture_revision": "d8fa97ef5d93de6cb1455154c2b0303b75ff5517",
+    "source_sha256": "356186106247322f3d4c8c0e9871b60525b3fd4810c83d31cb0b8e3a53f8a21d",
+    "network": "studionet",
+    "chain_id": 61999
+  }
+]

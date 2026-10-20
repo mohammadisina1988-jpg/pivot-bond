@@ -1,0 +1,16 @@
+{
+  "source_sha256": "72ffcc60664d3073ad9b23723b42da0438f22fae58f25f5cfe426263df70d35a",
+  "hashes": {
+    "bundle-deployment": "0xdfcaec226e484c11bbaf523291893c90a25feb0572f2fffc07a5a2e12a05dfe9",
+    "bundle-submit-0": "0xc90a13206b801f28d911ded86c33236c28b06b62f42c2e620d2cd01aeb161a0f",
+    "bundle-submit-1": "0x67bb0f65d1974284a6a9a35043c990259ba052b1c3658e4ac1fbd06c92ea4fa9",
+    "bundle-submit-2": "0x4303e4e57438aa5a87de1604ee821080d69c64f3008bf1e9f1b9aceedea1a0c1",
+    "bundle-interpret-0": "0x157cfd9766d114af09fc36da0abd1b8e5f826aa27a1a1c6dde2faad2844c0589",
+    "bundle-interpret-1": "0x9e132ab61655e4b80e18cbd9793ae4ac530f455750ffef6198a05024918b64f3",
+    "bundle-interpret-2": "0x4bd9303d678f6bf9f508b67fec08860361c1221f03c4ba81e614be3d347960ef",
+    "bundle-approve-0": "0xd946250071e9403d9b66b5bc16743fdfd10531457018af6114975d3b8cdbde0e",
+    "bundle-approve-1": "0x5332bf5d1b6bceb80e5c68bbdd81e90e070d391f4bff5758ac59c8c49dcb6a6b",
+    "bundle-approve-2": "0xd07b02905c1d4e290ad1203a719d04542343816f5243e77ceaa3d776c27aa2c7",
+    "bundle-settle": "0x7ee59f1bda264653cdca37f9c743fcec3de4746cad0d1166e755d4c4bc7cc7de"
+  }
+}

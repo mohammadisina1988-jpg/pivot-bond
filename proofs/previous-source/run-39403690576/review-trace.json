@@ -1,0 +1,348 @@
+[
+  {
+    "label": "review-submit-0",
+    "caller": 1,
+    "method": "submit",
+    "args": [
+      "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/split-zero.json",
+      "4dafa99538cae7bf4340e34b00e07202dce3cbc0c8f7c0cddde06a9b9dc6e6e5"
+    ],
+    "transaction": "0xdb948846a60e8c7f08447f9f5f3e3b4253e677ecec5eeda44ad180c4853b6a7a",
+    "state_before": {
+      "approved": [
+        false,
+        false
+      ],
+      "bids": [
+        null,
+        null
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x43e50ea203ef0118ae1a99039baa04a35fe4b581",
+          "0x114252bc295c7def4c09415b1283b00e352d41e5"
+        ],
+        "initial_credits": [
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0
+      ],
+      "owners": [
+        "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3",
+        "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3"
+      ],
+      "phase": "OPEN",
+      "seller": "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    },
+    "state": {
+      "approved": [
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "4dafa99538cae7bf4340e34b00e07202dce3cbc0c8f7c0cddde06a9b9dc6e6e5",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/split-zero.json"
+        },
+        null
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x43e50ea203ef0118ae1a99039baa04a35fe4b581",
+          "0x114252bc295c7def4c09415b1283b00e352d41e5"
+        ],
+        "initial_credits": [
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0
+      ],
+      "owners": [
+        "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3",
+        "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3"
+      ],
+      "phase": "OPEN",
+      "seller": "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    }
+  },
+  {
+    "label": "review-submit-1",
+    "caller": 2,
+    "method": "submit",
+    "args": [
+      "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/review-one.json",
+      "8d05a165015d859a4a7b23924c2cc3c6fc7970d0bf65b1e21f117c296169efbf"
+    ],
+    "transaction": "0xbc75b76688cd2956f288abfac111a736aac0b88cde3caa3797671875277d5e8c",
+    "state_before": {
+      "approved": [
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "4dafa99538cae7bf4340e34b00e07202dce3cbc0c8f7c0cddde06a9b9dc6e6e5",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/split-zero.json"
+        },
+        null
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x43e50ea203ef0118ae1a99039baa04a35fe4b581",
+          "0x114252bc295c7def4c09415b1283b00e352d41e5"
+        ],
+        "initial_credits": [
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0
+      ],
+      "owners": [
+        "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3",
+        "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3"
+      ],
+      "phase": "OPEN",
+      "seller": "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    },
+    "state": {
+      "approved": [
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "4dafa99538cae7bf4340e34b00e07202dce3cbc0c8f7c0cddde06a9b9dc6e6e5",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/split-zero.json"
+        },
+        {
+          "sha256": "8d05a165015d859a4a7b23924c2cc3c6fc7970d0bf65b1e21f117c296169efbf",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/review-one.json"
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x43e50ea203ef0118ae1a99039baa04a35fe4b581",
+          "0x114252bc295c7def4c09415b1283b00e352d41e5"
+        ],
+        "initial_credits": [
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0
+      ],
+      "owners": [
+        "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3",
+        "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3"
+      ],
+      "phase": "OPEN",
+      "seller": "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    }
+  },
+  {
+    "label": "review-interpret-0",
+    "caller": 0,
+    "method": "interpret",
+    "args": [
+      0
+    ],
+    "transaction": "0xd4ba6a9e17a7ab340db828855b58b21d5e3ddafc449bd6d91990e6ed627636be",
+    "state_before": {
+      "approved": [
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "4dafa99538cae7bf4340e34b00e07202dce3cbc0c8f7c0cddde06a9b9dc6e6e5",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/split-zero.json"
+        },
+        {
+          "sha256": "8d05a165015d859a4a7b23924c2cc3c6fc7970d0bf65b1e21f117c296169efbf",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/review-one.json"
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x43e50ea203ef0118ae1a99039baa04a35fe4b581",
+          "0x114252bc295c7def4c09415b1283b00e352d41e5"
+        ],
+        "initial_credits": [
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0
+      ],
+      "owners": [
+        "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3",
+        "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3"
+      ],
+      "phase": "OPEN",
+      "seller": "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    },
+    "state": {
+      "approved": [
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "4dafa99538cae7bf4340e34b00e07202dce3cbc0c8f7c0cddde06a9b9dc6e6e5",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 0,
+            "clauses": [
+              "An old illustrative pair estimate of thirty credits is withdrawn and has no current effect.",
+              "My current total willingness to pay for exactly Amber alone is zero credits, and for exactly Cobalt alone is also zero credits.",
+              "My current total willingness to pay for the complete bundle of Amber and Cobalt together is eighteen credits. These are total amounts, not premiums."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/split-zero.json",
+          "valuation": {
+            "anchors": [
+              [
+                1
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ],
+            "values": [
+              0,
+              0,
+              18
+            ]
+          }
+        },
+        {
+          "sha256": "8d05a165015d859a4a7b23924c2cc3c6fc7970d0bf65b1e21f117c296169efbf",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/review-one.json"
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x43e50ea203ef0118ae1a99039baa04a35fe4b581",
+          "0x114252bc295c7def4c09415b1283b00e352d41e5"
+        ],
+        "initial_credits": [
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0
+      ],
+      "owners": [
+        "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3",
+        "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3"
+      ],
+      "phase": "OPEN",
+      "seller": "0xe7acc0b72c89fb0869d5dd878be73277a423e4d3",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    }
+  }
+]

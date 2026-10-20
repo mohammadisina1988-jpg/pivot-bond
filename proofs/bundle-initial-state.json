@@ -1,0 +1,49 @@
+{
+  "approved": [
+    false,
+    false,
+    false
+  ],
+  "bids": [
+    null,
+    null,
+    null
+  ],
+  "configuration": {
+    "auction": "rights-auction",
+    "bidders": [
+      "0xfa2a83e60dfc7d92ffd339ff6ac84f4ba796605e",
+      "0x3bad04a1c272a36bf51d8602e6baef71c0d7f29d",
+      "0x0121bd8c5c093154f00968891de5211ddbdb62e9"
+    ],
+    "initial_credits": [
+      30,
+      30,
+      30
+    ],
+    "items": [
+      "Amber",
+      "Cobalt"
+    ],
+    "repository": "mohammadisina1988-jpg/pivot-bond"
+  },
+  "credits": [
+    30,
+    30,
+    30
+  ],
+  "escrow": [
+    0,
+    0,
+    0
+  ],
+  "owners": [
+    "0xad91b442642005282952765db76bafc9b6b77442",
+    "0xad91b442642005282952765db76bafc9b6b77442"
+  ],
+  "phase": "OPEN",
+  "seller": "0xad91b442642005282952765db76bafc9b6b77442",
+  "seller_credits": 0,
+  "settlement": null,
+  "transfers": []
+}

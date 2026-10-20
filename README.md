@@ -2,6 +2,8 @@
 
 A bounded GenLayer combinatorial VCG auction with independently interpreted prose bids, explicit bidder consent, maximum-bid escrow and actual contract-native ownership/payment changes.
 
+**Deployed and exercised on gasless StudioNet.** [Primary contract explorer](https://explorer-studio.genlayer.com/address/0xF586AD81fbd5B5a475D29042b7dda67fc14cF689) · [33 verified onchain receipts](proofs/README.md) · [Passing CI](https://github.com/mohammadisina1988-jpg/pivot-bond/actions/runs/39405803321).
+
 The seller creates 1–3 indivisible native rights and invites 2–4 distinct bidder wallets. Each bidder publishes a commit-pinned bid document, signs its URL/hash, then approves the exact consensus-interpreted total value of every nonempty bundle. Empty bundle value is zero. Missing or conditional values remain `REVIEW`; consent cannot fill them in.
 
 The intended consumer is another contract or application that enforces scarce native entitlements by reading ownership. Bundle valuations capture complementary rights whose combined value cannot be inferred from their individual values. Labels alone confer no external access.
@@ -27,6 +29,8 @@ node --test tests/rpc-preflight.test.cjs
 ```
 
 The direct suite runs validator callbacks explicitly using mocked web/model answers. Economic property tests compare item-owner enumeration with independent disjoint-bundle enumeration. Live proofs use actual GenVM, web acquisition, validator models, four signing wallets and fresh full-state verification.
+
+64 direct tests and seven transport tests pass. Coverage includes 729 exhaustive valuation profiles, 19,683 unilateral deviation checks for the fixed-profile settlement rule, 64 generated four-bidder/three-right cases, and JavaScript replay of all three direct scenario traces.
 
 ## Attribution
 

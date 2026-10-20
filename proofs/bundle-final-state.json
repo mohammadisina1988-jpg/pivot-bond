@@ -1,0 +1,194 @@
+{
+  "approved": [
+    true,
+    true,
+    true
+  ],
+  "bids": [
+    {
+      "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+      "source": {
+        "auction": "rights-auction",
+        "bidder": 0,
+        "clauses": [
+          "An old illustrative pair estimate of eighteen credits is withdrawn and has no current effect.",
+          "My current total willingness to pay for exactly Amber alone is zero credits, and for exactly Cobalt alone is also zero credits.",
+          "My current total willingness to pay for the complete bundle of Amber and Cobalt together is twenty-four credits. These are total amounts, not premiums."
+        ]
+      },
+      "status": "VALUED",
+      "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json",
+      "valuation": {
+        "anchors": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "values": [
+          0,
+          0,
+          24
+        ]
+      }
+    },
+    {
+      "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+      "source": {
+        "auction": "rights-auction",
+        "bidder": 1,
+        "clauses": [
+          "I currently value exactly Amber alone at eleven credits total, and exactly Cobalt alone at zero credits total.",
+          "My total willingness to pay for Amber and Cobalt together is eleven credits; that figure is not an additional charge on top of either singleton amount."
+        ]
+      },
+      "status": "VALUED",
+      "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json",
+      "valuation": {
+        "anchors": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "values": [
+          11,
+          0,
+          11
+        ]
+      }
+    },
+    {
+      "sha256": "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa",
+      "source": {
+        "auction": "rights-auction",
+        "bidder": 2,
+        "clauses": [
+          "Exactly Amber alone has current total value zero credits to me. Exactly Cobalt alone has current total value ten credits to me.",
+          "The exact combined bundle of Amber and Cobalt has total value ten credits to me; I do not add the single-item amounts to that bundle total."
+        ]
+      },
+      "status": "VALUED",
+      "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json",
+      "valuation": {
+        "anchors": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "values": [
+          0,
+          10,
+          10
+        ]
+      }
+    }
+  ],
+  "configuration": {
+    "auction": "rights-auction",
+    "bidders": [
+      "0xfa2a83e60dfc7d92ffd339ff6ac84f4ba796605e",
+      "0x3bad04a1c272a36bf51d8602e6baef71c0d7f29d",
+      "0x0121bd8c5c093154f00968891de5211ddbdb62e9"
+    ],
+    "initial_credits": [
+      30,
+      30,
+      30
+    ],
+    "items": [
+      "Amber",
+      "Cobalt"
+    ],
+    "repository": "mohammadisina1988-jpg/pivot-bond"
+  },
+  "credits": [
+    9,
+    30,
+    30
+  ],
+  "escrow": [
+    0,
+    0,
+    0
+  ],
+  "owners": [
+    "0xfa2a83e60dfc7d92ffd339ff6ac84f4ba796605e",
+    "0xfa2a83e60dfc7d92ffd339ff6ac84f4ba796605e"
+  ],
+  "phase": "SETTLED",
+  "seller": "0xad91b442642005282952765db76bafc9b6b77442",
+  "seller_credits": 21,
+  "settlement": {
+    "counterfactuals": [
+      {
+        "masks": [
+          0,
+          1,
+          2
+        ],
+        "owners": [
+          1,
+          2
+        ],
+        "welfare": 21
+      },
+      {
+        "masks": [
+          3,
+          0,
+          0
+        ],
+        "owners": [
+          0,
+          0
+        ],
+        "welfare": 24
+      },
+      {
+        "masks": [
+          3,
+          0,
+          0
+        ],
+        "owners": [
+          0,
+          0
+        ],
+        "welfare": 24
+      }
+    ],
+    "masks": [
+      3,
+      0,
+      0
+    ],
+    "owners": [
+      0,
+      0
+    ],
+    "payments": [
+      21,
+      0,
+      0
+    ],
+    "welfare": 24
+  },
+  "transfers": []
+}

@@ -1,0 +1,150 @@
+{
+  "scope": "review",
+  "mode": "fresh-rpc-and-state",
+  "verified_at": "2026-10-20T10:18:04.349Z",
+  "source_sha256": "356186106247322f3d4c8c0e9871b60525b3fd4810c83d31cb0b8e3a53f8a21d",
+  "instances": [
+    {
+      "id": "review",
+      "contract": "0x8be86ef09A884AE97b217476472222508fCade60",
+      "phase": "ABORTED",
+      "credits": [
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0
+      ],
+      "seller_credits": 0,
+      "owners": [
+        "0x58f602860bbe700fcd3ffdb3a8c6eb43e37ae76b",
+        "0x58f602860bbe700fcd3ffdb3a8c6eb43e37ae76b"
+      ],
+      "settlement": null,
+      "transfers": []
+    }
+  ],
+  "transactions": [
+    {
+      "label": "review-deployment",
+      "hash": "0x7d58051aa211db6bee3a79c93089a99b20baa3b1e96bb932d3c6949afcd9c21c",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "review-submit-0",
+      "hash": "0x929b564131126c53a6f0f7dc08e42920ee34dd209724bd3ccc0ed89d44d3d455",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "review-submit-1",
+      "hash": "0x87330793f6fc88b7b07a838b1541eff0e2b93d15f0149c7bbfabb8dedb9da0a0",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "review-interpret-0",
+      "hash": "0x8afbbb1eba68b27187f7ca80c1e30fe85805c0db66dcec14c6554f3ade0803dc",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "review-interpret-1",
+      "hash": "0x1a36ecf9f68d1df73fa62c296f4ffafcaa99df4fd710eedb28c2cd4a8a804b4c",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "review-approve-0",
+      "hash": "0x4b36ca732e502ffafb3a4148ea8614521189c0cbe39d0cfadb2ca16d7516c28e",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "review-reject-ambiguous",
+      "hash": "0x9b075534dc4192742b1b15eec49fb2c5becf12a6632d655e1bf53801769c32d8",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "review-abort",
+      "hash": "0x9656948827982bf88b6450399a2d2fb95b15b7d27f10a5dd57e1dbbefb95a09f",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "review-reject-late-settle",
+      "hash": "0x358fc2a9e5ec2aa882e276f0dcbc27017ac5e4e6f1fe3dde28e555943762aa28",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    }
+  ],
+  "transaction_calldata_checked": true,
+  "rejection_bytes_checked": true,
+  "live_state_match": true
+}

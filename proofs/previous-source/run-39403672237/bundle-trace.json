@@ -1,0 +1,2214 @@
+[
+  {
+    "label": "bundle-submit-0",
+    "caller": 1,
+    "method": "submit",
+    "args": [
+      "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json",
+      "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47"
+    ],
+    "transaction": "0x57902b74fdc16862d24576e3fde70244436c780d63d70409d533836b986c3542",
+    "state_before": {
+      "approved": [
+        false,
+        false,
+        false
+      ],
+      "bids": [
+        null,
+        null,
+        null
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    },
+    "state": {
+      "approved": [
+        false,
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json"
+        },
+        null,
+        null
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    }
+  },
+  {
+    "label": "bundle-submit-1",
+    "caller": 2,
+    "method": "submit",
+    "args": [
+      "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json",
+      "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747"
+    ],
+    "transaction": "0x051f8a3eb3b9b2d41abb6a35d6e277fef06a51f973c8c0d8072b3019e50953b6",
+    "state_before": {
+      "approved": [
+        false,
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json"
+        },
+        null,
+        null
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    },
+    "state": {
+      "approved": [
+        false,
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json"
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json"
+        },
+        null
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    }
+  },
+  {
+    "label": "bundle-submit-2",
+    "caller": 3,
+    "method": "submit",
+    "args": [
+      "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json",
+      "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa"
+    ],
+    "transaction": "0x5eae5992ab55f17696e14d2c467729b07a3a5904ad28b6dae79827c05c0a95ea",
+    "state_before": {
+      "approved": [
+        false,
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json"
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json"
+        },
+        null
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    },
+    "state": {
+      "approved": [
+        false,
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json"
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json"
+        },
+        {
+          "sha256": "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json"
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    }
+  },
+  {
+    "label": "bundle-interpret-0",
+    "caller": 0,
+    "method": "interpret",
+    "args": [
+      0
+    ],
+    "transaction": "0x9f8a2945ebbe00e97b8fa40750e58f887e96513e900ee2bc29a1fb18f1947b48",
+    "state_before": {
+      "approved": [
+        false,
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json"
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json"
+        },
+        {
+          "sha256": "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json"
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    },
+    "state": {
+      "approved": [
+        false,
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 0,
+            "clauses": [
+              "An old illustrative pair estimate of eighteen credits is withdrawn and has no current effect.",
+              "My current total willingness to pay for exactly Amber alone is zero credits, and for exactly Cobalt alone is also zero credits.",
+              "My current total willingness to pay for the complete bundle of Amber and Cobalt together is twenty-four credits. These are total amounts, not premiums."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json",
+          "valuation": {
+            "anchors": [
+              [
+                1
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ],
+            "values": [
+              0,
+              0,
+              24
+            ]
+          }
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json"
+        },
+        {
+          "sha256": "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json"
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    }
+  },
+  {
+    "label": "bundle-interpret-1",
+    "caller": 0,
+    "method": "interpret",
+    "args": [
+      1
+    ],
+    "transaction": "0x4952f159cf2d655dd68f84dca4bffeb87feea3a55ec4c6d8e2e58e640f220e10",
+    "state_before": {
+      "approved": [
+        false,
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 0,
+            "clauses": [
+              "An old illustrative pair estimate of eighteen credits is withdrawn and has no current effect.",
+              "My current total willingness to pay for exactly Amber alone is zero credits, and for exactly Cobalt alone is also zero credits.",
+              "My current total willingness to pay for the complete bundle of Amber and Cobalt together is twenty-four credits. These are total amounts, not premiums."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json",
+          "valuation": {
+            "anchors": [
+              [
+                1
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ],
+            "values": [
+              0,
+              0,
+              24
+            ]
+          }
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json"
+        },
+        {
+          "sha256": "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json"
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    },
+    "state": {
+      "approved": [
+        false,
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 0,
+            "clauses": [
+              "An old illustrative pair estimate of eighteen credits is withdrawn and has no current effect.",
+              "My current total willingness to pay for exactly Amber alone is zero credits, and for exactly Cobalt alone is also zero credits.",
+              "My current total willingness to pay for the complete bundle of Amber and Cobalt together is twenty-four credits. These are total amounts, not premiums."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json",
+          "valuation": {
+            "anchors": [
+              [
+                1
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ],
+            "values": [
+              0,
+              0,
+              24
+            ]
+          }
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 1,
+            "clauses": [
+              "I currently value exactly Amber alone at eleven credits total, and exactly Cobalt alone at zero credits total.",
+              "My total willingness to pay for Amber and Cobalt together is eleven credits; that figure is not an additional charge on top of either singleton amount."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              11,
+              0,
+              11
+            ]
+          }
+        },
+        {
+          "sha256": "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json"
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    }
+  },
+  {
+    "label": "bundle-interpret-2",
+    "caller": 0,
+    "method": "interpret",
+    "args": [
+      2
+    ],
+    "transaction": "0x0edfbcfd3cd850164ac20da93dc3f5a828c181c66ca8a782eacd6e86192b5d78",
+    "state_before": {
+      "approved": [
+        false,
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 0,
+            "clauses": [
+              "An old illustrative pair estimate of eighteen credits is withdrawn and has no current effect.",
+              "My current total willingness to pay for exactly Amber alone is zero credits, and for exactly Cobalt alone is also zero credits.",
+              "My current total willingness to pay for the complete bundle of Amber and Cobalt together is twenty-four credits. These are total amounts, not premiums."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json",
+          "valuation": {
+            "anchors": [
+              [
+                1
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ],
+            "values": [
+              0,
+              0,
+              24
+            ]
+          }
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 1,
+            "clauses": [
+              "I currently value exactly Amber alone at eleven credits total, and exactly Cobalt alone at zero credits total.",
+              "My total willingness to pay for Amber and Cobalt together is eleven credits; that figure is not an additional charge on top of either singleton amount."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              11,
+              0,
+              11
+            ]
+          }
+        },
+        {
+          "sha256": "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa",
+          "status": "SUBMITTED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json"
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    },
+    "state": {
+      "approved": [
+        false,
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 0,
+            "clauses": [
+              "An old illustrative pair estimate of eighteen credits is withdrawn and has no current effect.",
+              "My current total willingness to pay for exactly Amber alone is zero credits, and for exactly Cobalt alone is also zero credits.",
+              "My current total willingness to pay for the complete bundle of Amber and Cobalt together is twenty-four credits. These are total amounts, not premiums."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json",
+          "valuation": {
+            "anchors": [
+              [
+                1
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ],
+            "values": [
+              0,
+              0,
+              24
+            ]
+          }
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 1,
+            "clauses": [
+              "I currently value exactly Amber alone at eleven credits total, and exactly Cobalt alone at zero credits total.",
+              "My total willingness to pay for Amber and Cobalt together is eleven credits; that figure is not an additional charge on top of either singleton amount."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              11,
+              0,
+              11
+            ]
+          }
+        },
+        {
+          "sha256": "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 2,
+            "clauses": [
+              "Exactly Amber alone has current total value zero credits to me. Exactly Cobalt alone has current total value ten credits to me.",
+              "The exact combined bundle of Amber and Cobalt has total value ten credits to me; I do not add the single-item amounts to that bundle total."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              0,
+              10,
+              10
+            ]
+          }
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    }
+  },
+  {
+    "label": "bundle-approve-0",
+    "caller": 1,
+    "method": "approve",
+    "args": [
+      [
+        0,
+        0,
+        24
+      ]
+    ],
+    "transaction": "0xb9123ef9b7f1ca114bb4b74b160568843dca30c714206adaa6d6a6f7bff93781",
+    "state_before": {
+      "approved": [
+        false,
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 0,
+            "clauses": [
+              "An old illustrative pair estimate of eighteen credits is withdrawn and has no current effect.",
+              "My current total willingness to pay for exactly Amber alone is zero credits, and for exactly Cobalt alone is also zero credits.",
+              "My current total willingness to pay for the complete bundle of Amber and Cobalt together is twenty-four credits. These are total amounts, not premiums."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json",
+          "valuation": {
+            "anchors": [
+              [
+                1
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ],
+            "values": [
+              0,
+              0,
+              24
+            ]
+          }
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 1,
+            "clauses": [
+              "I currently value exactly Amber alone at eleven credits total, and exactly Cobalt alone at zero credits total.",
+              "My total willingness to pay for Amber and Cobalt together is eleven credits; that figure is not an additional charge on top of either singleton amount."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              11,
+              0,
+              11
+            ]
+          }
+        },
+        {
+          "sha256": "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 2,
+            "clauses": [
+              "Exactly Amber alone has current total value zero credits to me. Exactly Cobalt alone has current total value ten credits to me.",
+              "The exact combined bundle of Amber and Cobalt has total value ten credits to me; I do not add the single-item amounts to that bundle total."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              0,
+              10,
+              10
+            ]
+          }
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        30,
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    },
+    "state": {
+      "approved": [
+        true,
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 0,
+            "clauses": [
+              "An old illustrative pair estimate of eighteen credits is withdrawn and has no current effect.",
+              "My current total willingness to pay for exactly Amber alone is zero credits, and for exactly Cobalt alone is also zero credits.",
+              "My current total willingness to pay for the complete bundle of Amber and Cobalt together is twenty-four credits. These are total amounts, not premiums."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json",
+          "valuation": {
+            "anchors": [
+              [
+                1
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ],
+            "values": [
+              0,
+              0,
+              24
+            ]
+          }
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 1,
+            "clauses": [
+              "I currently value exactly Amber alone at eleven credits total, and exactly Cobalt alone at zero credits total.",
+              "My total willingness to pay for Amber and Cobalt together is eleven credits; that figure is not an additional charge on top of either singleton amount."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              11,
+              0,
+              11
+            ]
+          }
+        },
+        {
+          "sha256": "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 2,
+            "clauses": [
+              "Exactly Amber alone has current total value zero credits to me. Exactly Cobalt alone has current total value ten credits to me.",
+              "The exact combined bundle of Amber and Cobalt has total value ten credits to me; I do not add the single-item amounts to that bundle total."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              0,
+              10,
+              10
+            ]
+          }
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        6,
+        30,
+        30
+      ],
+      "escrow": [
+        24,
+        0,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    }
+  },
+  {
+    "label": "bundle-approve-1",
+    "caller": 2,
+    "method": "approve",
+    "args": [
+      [
+        11,
+        0,
+        11
+      ]
+    ],
+    "transaction": "0x35ab11276e151e2defe60476e9cc0afd600b73e0e620d6dd05754dec4ab4e989",
+    "state_before": {
+      "approved": [
+        true,
+        false,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 0,
+            "clauses": [
+              "An old illustrative pair estimate of eighteen credits is withdrawn and has no current effect.",
+              "My current total willingness to pay for exactly Amber alone is zero credits, and for exactly Cobalt alone is also zero credits.",
+              "My current total willingness to pay for the complete bundle of Amber and Cobalt together is twenty-four credits. These are total amounts, not premiums."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json",
+          "valuation": {
+            "anchors": [
+              [
+                1
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ],
+            "values": [
+              0,
+              0,
+              24
+            ]
+          }
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 1,
+            "clauses": [
+              "I currently value exactly Amber alone at eleven credits total, and exactly Cobalt alone at zero credits total.",
+              "My total willingness to pay for Amber and Cobalt together is eleven credits; that figure is not an additional charge on top of either singleton amount."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              11,
+              0,
+              11
+            ]
+          }
+        },
+        {
+          "sha256": "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 2,
+            "clauses": [
+              "Exactly Amber alone has current total value zero credits to me. Exactly Cobalt alone has current total value ten credits to me.",
+              "The exact combined bundle of Amber and Cobalt has total value ten credits to me; I do not add the single-item amounts to that bundle total."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              0,
+              10,
+              10
+            ]
+          }
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        6,
+        30,
+        30
+      ],
+      "escrow": [
+        24,
+        0,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    },
+    "state": {
+      "approved": [
+        true,
+        true,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 0,
+            "clauses": [
+              "An old illustrative pair estimate of eighteen credits is withdrawn and has no current effect.",
+              "My current total willingness to pay for exactly Amber alone is zero credits, and for exactly Cobalt alone is also zero credits.",
+              "My current total willingness to pay for the complete bundle of Amber and Cobalt together is twenty-four credits. These are total amounts, not premiums."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json",
+          "valuation": {
+            "anchors": [
+              [
+                1
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ],
+            "values": [
+              0,
+              0,
+              24
+            ]
+          }
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 1,
+            "clauses": [
+              "I currently value exactly Amber alone at eleven credits total, and exactly Cobalt alone at zero credits total.",
+              "My total willingness to pay for Amber and Cobalt together is eleven credits; that figure is not an additional charge on top of either singleton amount."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              11,
+              0,
+              11
+            ]
+          }
+        },
+        {
+          "sha256": "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 2,
+            "clauses": [
+              "Exactly Amber alone has current total value zero credits to me. Exactly Cobalt alone has current total value ten credits to me.",
+              "The exact combined bundle of Amber and Cobalt has total value ten credits to me; I do not add the single-item amounts to that bundle total."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              0,
+              10,
+              10
+            ]
+          }
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        6,
+        19,
+        30
+      ],
+      "escrow": [
+        24,
+        11,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    }
+  },
+  {
+    "label": "bundle-approve-2",
+    "caller": 3,
+    "method": "approve",
+    "args": [
+      [
+        0,
+        10,
+        10
+      ]
+    ],
+    "transaction": "0x76910f396ecc73675192ea385929b913658974eeb0a5b3272f9141756eb51897",
+    "state_before": {
+      "approved": [
+        true,
+        true,
+        false
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 0,
+            "clauses": [
+              "An old illustrative pair estimate of eighteen credits is withdrawn and has no current effect.",
+              "My current total willingness to pay for exactly Amber alone is zero credits, and for exactly Cobalt alone is also zero credits.",
+              "My current total willingness to pay for the complete bundle of Amber and Cobalt together is twenty-four credits. These are total amounts, not premiums."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json",
+          "valuation": {
+            "anchors": [
+              [
+                1
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ],
+            "values": [
+              0,
+              0,
+              24
+            ]
+          }
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 1,
+            "clauses": [
+              "I currently value exactly Amber alone at eleven credits total, and exactly Cobalt alone at zero credits total.",
+              "My total willingness to pay for Amber and Cobalt together is eleven credits; that figure is not an additional charge on top of either singleton amount."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              11,
+              0,
+              11
+            ]
+          }
+        },
+        {
+          "sha256": "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 2,
+            "clauses": [
+              "Exactly Amber alone has current total value zero credits to me. Exactly Cobalt alone has current total value ten credits to me.",
+              "The exact combined bundle of Amber and Cobalt has total value ten credits to me; I do not add the single-item amounts to that bundle total."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              0,
+              10,
+              10
+            ]
+          }
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        6,
+        19,
+        30
+      ],
+      "escrow": [
+        24,
+        11,
+        0
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "OPEN",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    },
+    "state": {
+      "approved": [
+        true,
+        true,
+        true
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 0,
+            "clauses": [
+              "An old illustrative pair estimate of eighteen credits is withdrawn and has no current effect.",
+              "My current total willingness to pay for exactly Amber alone is zero credits, and for exactly Cobalt alone is also zero credits.",
+              "My current total willingness to pay for the complete bundle of Amber and Cobalt together is twenty-four credits. These are total amounts, not premiums."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json",
+          "valuation": {
+            "anchors": [
+              [
+                1
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ],
+            "values": [
+              0,
+              0,
+              24
+            ]
+          }
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 1,
+            "clauses": [
+              "I currently value exactly Amber alone at eleven credits total, and exactly Cobalt alone at zero credits total.",
+              "My total willingness to pay for Amber and Cobalt together is eleven credits; that figure is not an additional charge on top of either singleton amount."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              11,
+              0,
+              11
+            ]
+          }
+        },
+        {
+          "sha256": "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 2,
+            "clauses": [
+              "Exactly Amber alone has current total value zero credits to me. Exactly Cobalt alone has current total value ten credits to me.",
+              "The exact combined bundle of Amber and Cobalt has total value ten credits to me; I do not add the single-item amounts to that bundle total."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              0,
+              10,
+              10
+            ]
+          }
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        6,
+        19,
+        20
+      ],
+      "escrow": [
+        24,
+        11,
+        10
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "READY",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    }
+  },
+  {
+    "label": "bundle-settle",
+    "caller": 0,
+    "method": "settle",
+    "args": [],
+    "transaction": "0x9b6cf4dc91ddec2fbf578b965adac47f41a18dd231b6907e647c32e5b4bf3051",
+    "state_before": {
+      "approved": [
+        true,
+        true,
+        true
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 0,
+            "clauses": [
+              "An old illustrative pair estimate of eighteen credits is withdrawn and has no current effect.",
+              "My current total willingness to pay for exactly Amber alone is zero credits, and for exactly Cobalt alone is also zero credits.",
+              "My current total willingness to pay for the complete bundle of Amber and Cobalt together is twenty-four credits. These are total amounts, not premiums."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json",
+          "valuation": {
+            "anchors": [
+              [
+                1
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ],
+            "values": [
+              0,
+              0,
+              24
+            ]
+          }
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 1,
+            "clauses": [
+              "I currently value exactly Amber alone at eleven credits total, and exactly Cobalt alone at zero credits total.",
+              "My total willingness to pay for Amber and Cobalt together is eleven credits; that figure is not an additional charge on top of either singleton amount."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              11,
+              0,
+              11
+            ]
+          }
+        },
+        {
+          "sha256": "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 2,
+            "clauses": [
+              "Exactly Amber alone has current total value zero credits to me. Exactly Cobalt alone has current total value ten credits to me.",
+              "The exact combined bundle of Amber and Cobalt has total value ten credits to me; I do not add the single-item amounts to that bundle total."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              0,
+              10,
+              10
+            ]
+          }
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        6,
+        19,
+        20
+      ],
+      "escrow": [
+        24,
+        11,
+        10
+      ],
+      "owners": [
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+        "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa"
+      ],
+      "phase": "READY",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 0,
+      "settlement": null,
+      "transfers": []
+    },
+    "state": {
+      "approved": [
+        true,
+        true,
+        true
+      ],
+      "bids": [
+        {
+          "sha256": "819bbfa43a2ea3d7db9b903e561d4c4f929820fa4ae139e72a736f7ee5b7ff47",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 0,
+            "clauses": [
+              "An old illustrative pair estimate of eighteen credits is withdrawn and has no current effect.",
+              "My current total willingness to pay for exactly Amber alone is zero credits, and for exactly Cobalt alone is also zero credits.",
+              "My current total willingness to pay for the complete bundle of Amber and Cobalt together is twenty-four credits. These are total amounts, not premiums."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/bundle-zero.json",
+          "valuation": {
+            "anchors": [
+              [
+                1
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ],
+            "values": [
+              0,
+              0,
+              24
+            ]
+          }
+        },
+        {
+          "sha256": "3eec98833b96adc7fcc5f0a2066a01ede1a0eb4057839212ac4f27f257d6a747",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 1,
+            "clauses": [
+              "I currently value exactly Amber alone at eleven credits total, and exactly Cobalt alone at zero credits total.",
+              "My total willingness to pay for Amber and Cobalt together is eleven credits; that figure is not an additional charge on top of either singleton amount."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/amber-one.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              11,
+              0,
+              11
+            ]
+          }
+        },
+        {
+          "sha256": "cafeeb26ca09aa181ab02b1ca6dff3dd8beaa6d98733a2caa5028627c8d7eeaa",
+          "source": {
+            "auction": "rights-auction",
+            "bidder": 2,
+            "clauses": [
+              "Exactly Amber alone has current total value zero credits to me. Exactly Cobalt alone has current total value ten credits to me.",
+              "The exact combined bundle of Amber and Cobalt has total value ten credits to me; I do not add the single-item amounts to that bundle total."
+            ]
+          },
+          "status": "VALUED",
+          "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/pivot-bond/d8fa97ef5d93de6cb1455154c2b0303b75ff5517/fixtures/cobalt-two.json",
+          "valuation": {
+            "anchors": [
+              [
+                0
+              ],
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "values": [
+              0,
+              10,
+              10
+            ]
+          }
+        }
+      ],
+      "configuration": {
+        "auction": "rights-auction",
+        "bidders": [
+          "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+          "0x050fd9bae6f5847eb07b4933ef476840883a60fd",
+          "0x941e5c1dd901ae9820c561f66bee2b59c31fd1a8"
+        ],
+        "initial_credits": [
+          30,
+          30,
+          30
+        ],
+        "items": [
+          "Amber",
+          "Cobalt"
+        ],
+        "repository": "mohammadisina1988-jpg/pivot-bond"
+      },
+      "credits": [
+        9,
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0,
+        0
+      ],
+      "owners": [
+        "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+        "0x06807c7a3410485fc734ae221fe2e9f07ddb3265"
+      ],
+      "phase": "SETTLED",
+      "seller": "0xf0e9025f173a5185c7b8a963c95bbd71c14c1cfa",
+      "seller_credits": 21,
+      "settlement": {
+        "counterfactuals": [
+          {
+            "masks": [
+              0,
+              1,
+              2
+            ],
+            "owners": [
+              1,
+              2
+            ],
+            "welfare": 21
+          },
+          {
+            "masks": [
+              3,
+              0,
+              0
+            ],
+            "owners": [
+              0,
+              0
+            ],
+            "welfare": 24
+          },
+          {
+            "masks": [
+              3,
+              0,
+              0
+            ],
+            "owners": [
+              0,
+              0
+            ],
+            "welfare": 24
+          }
+        ],
+        "masks": [
+          3,
+          0,
+          0
+        ],
+        "owners": [
+          0,
+          0
+        ],
+        "payments": [
+          21,
+          0,
+          0
+        ],
+        "welfare": 24
+      },
+      "transfers": []
+    }
+  }
+]

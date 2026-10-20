@@ -1,0 +1,232 @@
+{
+  "scope": "bundle",
+  "mode": "fresh-rpc-and-state",
+  "verified_at": "2026-10-20T10:02:31.190Z",
+  "source_sha256": "aa3d937c292dcf8d88712b60bfaa9bd068494026b34a3a44cc9367d6df9cdf8f",
+  "instances": [
+    {
+      "id": "bundle",
+      "contract": "0xB4A2D323510C373B9581E1851140AD54D3da199d",
+      "phase": "SETTLED",
+      "credits": [
+        9,
+        30,
+        30
+      ],
+      "escrow": [
+        0,
+        0,
+        0
+      ],
+      "seller_credits": 21,
+      "owners": [
+        "0x06807c7a3410485fc734ae221fe2e9f07ddb3265",
+        "0x06807c7a3410485fc734ae221fe2e9f07ddb3265"
+      ],
+      "settlement": {
+        "counterfactuals": [
+          {
+            "masks": [
+              0,
+              1,
+              2
+            ],
+            "owners": [
+              1,
+              2
+            ],
+            "welfare": 21
+          },
+          {
+            "masks": [
+              3,
+              0,
+              0
+            ],
+            "owners": [
+              0,
+              0
+            ],
+            "welfare": 24
+          },
+          {
+            "masks": [
+              3,
+              0,
+              0
+            ],
+            "owners": [
+              0,
+              0
+            ],
+            "welfare": 24
+          }
+        ],
+        "masks": [
+          3,
+          0,
+          0
+        ],
+        "owners": [
+          0,
+          0
+        ],
+        "payments": [
+          21,
+          0,
+          0
+        ],
+        "welfare": 24
+      },
+      "transfers": []
+    }
+  ],
+  "transactions": [
+    {
+      "label": "bundle-deployment",
+      "hash": "0x33ab8ee643728bb1defd48845a6358067f58d1de555ee793fb48aab41455b952",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "bundle-submit-0",
+      "hash": "0x57902b74fdc16862d24576e3fde70244436c780d63d70409d533836b986c3542",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "bundle-submit-1",
+      "hash": "0x051f8a3eb3b9b2d41abb6a35d6e277fef06a51f973c8c0d8072b3019e50953b6",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "bundle-submit-2",
+      "hash": "0x5eae5992ab55f17696e14d2c467729b07a3a5904ad28b6dae79827c05c0a95ea",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "bundle-interpret-0",
+      "hash": "0x9f8a2945ebbe00e97b8fa40750e58f887e96513e900ee2bc29a1fb18f1947b48",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "bundle-interpret-1",
+      "hash": "0x4952f159cf2d655dd68f84dca4bffeb87feea3a55ec4c6d8e2e58e640f220e10",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "bundle-interpret-2",
+      "hash": "0x0edfbcfd3cd850164ac20da93dc3f5a828c181c66ca8a782eacd6e86192b5d78",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 1,
+      "idle": 1,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "bundle-approve-0",
+      "hash": "0xb9123ef9b7f1ca114bb4b74b160568843dca30c714206adaa6d6a6f7bff93781",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "bundle-approve-1",
+      "hash": "0x35ab11276e151e2defe60476e9cc0afd600b73e0e620d6dd05754dec4ab4e989",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "bundle-approve-2",
+      "hash": "0x76910f396ecc73675192ea385929b913658974eeb0a5b3272f9141756eb51897",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "bundle-settle",
+      "hash": "0x9b6cf4dc91ddec2fbf578b965adac47f41a18dd231b6907e647c32e5b4bf3051",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    }
+  ],
+  "transaction_calldata_checked": true,
+  "rejection_bytes_checked": true,
+  "live_state_match": true
+}

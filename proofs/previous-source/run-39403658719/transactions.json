@@ -1,0 +1,18 @@
+{
+  "source_sha256": "aa3d937c292dcf8d88712b60bfaa9bd068494026b34a3a44cc9367d6df9cdf8f",
+  "hashes": {
+    "split-deployment": "0x5afcee5dbeb4e1c39083f1a33bb6565e878e043cf24334809e639083aa45fa33",
+    "split-submit-0": "0x9c8edb43720079406c91238ecac22f6c4862a50ddc998f905e9c6eefee2d6cce",
+    "split-submit-1": "0x68a24251f4d114dd9d97f215cdae8dcbbe8ab1165cfbcf706e177bbb7ede6780",
+    "split-submit-2": "0x70053c4211d6daa07774c9628a7e4f48f08cb5c77e87f6b22b753e01ed6e6cb5",
+    "split-interpret-0": "0x277b6539c9e9d0995dfdafd8c6b56b522b4438e8ee9522dd3a55c5fd9b0eefc8",
+    "split-interpret-1": "0x1ccbc5137c4c1331c2be8ba183b85ac45a253fbf69f2546fde53ba9d238caeb9",
+    "split-interpret-2": "0x56552937c017d933f098aafd3b3234590403c6a2f0742f6fb17b2a5bbf79076a",
+    "split-approve-0": "0x246100ff45224164dabecc1913969449e34de3f92b2a0e693cef5e1ca2afce67",
+    "split-approve-1": "0x5f3db2365561f59cff95b3f752de949db97bf37e83a422c20e8216a4ba29f127",
+    "split-approve-2": "0x5ecc3d72e3c9374ccb7c9b60b5da2fed961edcaf6a04af928c87487d180773f6",
+    "split-settle": "0xc089d119d6b3889812fda690d3b1f3c85bb8efbf2d29e32fddf31458bab1888f",
+    "split-reject-nonholder": "0x58c0ec62fc9ebe316c4ffeeed4f9f54eeb7243a84c2e1322abdc7990ede68df3",
+    "split-holder-transfer": "0xa362d2fc01d89bbe5f6d3e506255c859389fe6b818a6227eedb176df56141012"
+  }
+}
